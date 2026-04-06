@@ -7,14 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/13FisX3hxIfQZHAR7NjVUWiEWvxgsNmaC
 """
 
-!pyspark --version
 
-from pyspark import SparkContext
+from pyspark import Sparkcontext
 sc = SparkContext()
 
 xyz = sc.parallelize([1,2,3,3,4,4],8)
 
 print(type(xyz))
+print(xyz)
 type(xyz)
 
 xyz.collect()
