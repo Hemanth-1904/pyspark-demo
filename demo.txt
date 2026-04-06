@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Hello from main updated
+=======
+Hello from feature branch
+>>>>>>> fd1fe34 (changes in the feature)
