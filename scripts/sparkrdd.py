@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/13FisX3hxIfQZHAR7NjVUWiEWvxgsNmaC
 """
 
-
+print("Hello")
 from pyspark import Sparkcontext
 sc = SparkContext()
 
