@@ -14,6 +14,7 @@ sc = SparkContext()
 xyz = sc.parallelize([1,2,3,3,4,4],8)
 
 print(type(xyz))
+print("Something")
 print(xyz)
 type(xyz)
 
